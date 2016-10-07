@@ -1,0 +1,488 @@
+@charset "UTF-8";
+/* Error 404 */
+.error404 {
+    background: linear-gradient(to bottom,#ff8f00 0%,#ff6f00 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.error404 .col {
+    display: inline-block;
+    float: none;
+    text-align: left;
+}
+.error404 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3.5rem;
+}
+.error404 #error-404-img {
+    display: block;
+    width: 16rem;
+    height: auto;
+    margin: 3% auto;
+}
+.error404 #error-404-img:hover { cursor: Default }
+.error404 p {
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+}
+.error404 #prejit-na-hlavni-stranku {
+    background-color: #ff8f00;
+    margin: 0 auto 20%;
+}
+.error404 #prejit-na-hlavni-stranku:hover { background-color: #ffa000 }
+/* End Error 404 */
+/* ERROR 403 */
+.error403 {
+    background: linear-gradient(to bottom,#ff8f00 0%,#ff6f00 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.error403 .col {
+    display: inline-block;
+    float: none;
+    text-align: left;
+}
+.error403 h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 3.5rem;
+}
+.error403 #error-403-img {
+    display: block;
+    width: 16rem;
+    height: auto;
+    margin: 3% auto;
+}
+.error403 #error-403-img:hover { cursor: Default }
+.error403 p {
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+}
+.error403 #prejit-na-hlavni-stranku {
+    background-color: #ff8f00;
+    margin: 0 auto 20%;
+}
+.error403 #prejit-na-hlavni-stranku:hover { background-color: #ffa000 }
+/* End error 403 */
+/* HLAVNÍ STRANA (PRIHLÁŠENÍ) */
+#logo { 
+    width: auto;
+    height: auto;
+    margin: 3rem 0 1rem;
+}
+.login {
+    background: linear-gradient(to bottom,#ff7043 0%,#ff7043 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.login .col {
+    display: inline-block;
+    float: none;
+}
+.login hr {
+	background: #ff6f00;
+	margin: 4rem 0 3rem;
+	border: 0;
+	height: 3px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	}
+	/*login= the main login page*/
+.login h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3.5rem;
+}
+.login p {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.login #registration {
+    background-color: #ff7043;
+    margin: 0 auto 2rem;
+}
+.login #registration:hover { background-color: #ff5722 }
+/*entry_form= entry form
+  enter=enter 
+  zapomenute-password=forgotten password*/
+.entry_form {
+    background-color:#fafafa;
+    margin: 0 auto 3rem;
+    border-radius:5px;
+    padding: 1.5rem 2rem 0.5rem;
+}
+.entry_form #enter { background-color: #26a69a }
+.entry_form #enter:hover { background-color: #009688 }
+.entry_form #zapomenute-password { background-color: #ff8f00 }
+#prizpusobive-mockup h3, #materialize-podpora h3 {
+    font-weight: 300;
+	color: #fff;
+}
+#prizpusobive-mockup img {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+#materialize-podpora img {
+	width: 100%;
+	height: auto;
+	margin: 1.5rem auto 5rem;
+}
+.btn, .btn-large, .btn-flat {
+    margin-bottom: 30px;
+}
+/* End HLAVNÍ STRANA */
+/* STRÁNKA registration (registration) */
+/*reg_page=registration page*/
+.reg_page {
+    background: linear-gradient(to bottom,#ff7043 0%,#ff7043 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.reg_page .col {
+    display: inline-block;
+    float: none;
+}
+.reg_page h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3.5rem;
+}
+.reg_page p {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.reg_page #login_1 {
+    background-color: #26a69a;
+    margin: 1% auto 2rem;
+}
+/*login_1=login
+reg_form=registration form
+to_register=to register */
+.reg_page #login_1:hover { background-color: #009688 }
+.reg_form {
+    background-color:#fafafa;
+    margin: 1rem auto 3rem;
+    border-radius:5px;
+    padding: 1.5rem 2rem 0.5rem!important;
+}
+.reg_form #to_register { 
+    background-color: #ff7043;
+    margin-top: 7rem; 
+}
+.reg_form #to_register:hover { background-color: #ff5722; }
+/* End Registration page */
+/* Animation */
+#animation_hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff7043;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#animation {
+    position: relative;
+    width: 240px;
+    height: 29px;
+    top: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#animation span {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: -4.2rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+ .animation_hide {
+    position: absolute;
+    top: 0;
+    background-color: #FFFFFF;
+    width: 29px;
+    height: 29px;
+    -moz-animation-name: bounce_animation;
+    -moz-animation-duration: 1.3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -moz-transform: scale(.3);
+    -moz-border-radius: 19px;
+    -webkit-animation-name: bounce_animation;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -webkit-transform: scale(.3);
+    -webkit-border-radius: 19px;
+    -o-animation-name: bounce_animation;
+    -o-animation-duration: 1.3s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    -o-transform: scale(.3);
+    -o-border-radius: 19px;
+    -ms-animation-name: bounce_animation;
+    -ms-animation-duration: 1.3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -ms-transform: scale(.3);
+    -ms-border-radius: 19px;
+    animation-name: bounce_animation;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    transform: scale(.3);
+    border-radius: 19px;
+}
+#animation_1 {
+    left: 0;
+    -moz-animation-delay: 0.52s;
+    -webkit-animation-delay: 0.52s;
+    -o-animation-delay: 0.52s;
+    -ms-animation-delay: 0.52s;
+    animation-delay: 0.52s;
+}
+#animation_2 {
+    left: 30px;
+    -moz-animation-delay: 0.65s;
+    -webkit-animation-delay: 0.65s;
+    -o-animation-delay: 0.65s;
+    -ms-animation-delay: 0.65s;
+    animation-delay: 0.65s;
+}
+#animation_3 {
+    left: 60px;
+    -moz-animation-delay: 0.78s;
+    -webkit-animation-delay: 0.78s;
+    -o-animation-delay: 0.78s;
+    -ms-animation-delay: 0.78s;
+    animation-delay: 0.78s;
+}
+#animation_4 {
+    left: 90px;
+    -moz-animation-delay: 0.91s;
+    -webkit-animation-delay: 0.91s;
+    -o-animation-delay: 0.91s;
+    -ms-animation-delay: 0.91s;
+    animation-delay: 0.91s;
+}
+#animation_5 {
+    left: 120px;
+    -moz-animation-delay: 1.04s;
+    -webkit-animation-delay: 1.04s;
+    -o-animation-delay: 1.04s;
+    -ms-animation-delay: 1.04s;
+    animation-delay: 1.04s;
+}
+#animation_6 {
+    left: 150px;
+    -moz-animation-delay: 1.17s;
+    -webkit-animation-delay: 1.17s;
+    -o-animation-delay: 1.17s;
+    -ms-animation-delay: 1.17s;
+    animation-delay: 1.17s;
+}
+#animation_7 {
+    left: 180px;
+    -moz-animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    -ms-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+#animation_8 {
+    left: 210px;
+    -moz-animation-delay: 1.43s;
+    -webkit-animation-delay: 1.43s;
+    -o-animation-delay: 1.43s;
+    -ms-animation-delay: 1.43s;
+    animation-delay: 1.43s;
+}
+@-moz-keyframes bounce_animation { 
+    0% {
+        -moz-transform: scale(1);
+        background-color: #FFFFFF;
+    }
+    100% {
+        -moz-transform: scale(.3);
+        background-color: #FFFFFF;
+    }
+}
+@-webkit-keyframes bounce_animation { 
+    0% {
+        -webkit-transform: scale(1);
+        background-color: #FFFFFF;
+    }
+    100% {
+        -webkit-transform: scale(.3);
+        background-color: #FFFFFF;
+    }
+}
+@-o-keyframes bounce_animation { 
+    0% {
+        -o-transform: scale(1);
+        background-color: #FFFFFF;
+    }
+    100% {
+        -o-transform: scale(.3);
+        background-color: #FFFFFF;
+    }
+}
+@-ms-keyframes bounce_animation { 
+    0% {
+        -ms-transform: scale(1);
+        background-color: #FFFFFF;
+    }
+    100% {
+        -ms-transform: scale(.3);
+        background-color: #FFFFFF;
+    }
+}
+@keyframes bounce_animation { 
+    0% {
+        transform: scale(1);
+        background-color: #FFFFFF;
+    }
+    100% {
+        transform: scale(.3);
+        background-color: #FFFFFF;
+    }
+}
+/* End Animation */
+
+/* EFEKTY */
+/* End EFEKTY */
+
+/* OSTATNÍ */
+.toast .btn, .toast .btn-large, .toast .btn-flat {
+    margin-left: 0;
+}
+.zpet-na-horu {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    display: none;
+    background-color: #ff6f00;
+}
+.zpet-na-horu:hover {
+    background-color: #ffab40;
+}
+::-moz-selection { background: #ffa726; color: #fff; }
+::selection { background: #ffa726; color: #fff; }
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-moz-scrollbar {
+    width: 12px;
+}
+::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+::-moz-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+textarea:focus {
+  border-bottom: 1px solid #FFA500;
+  -webkit-box-shadow: 0 1px 0 0 #FFA500;
+  -moz-box-shadow: 0 1px 0 0 #FFA500;
+  box-shadow: 0 1px 0 0 #FFA500;
+}
+.input-field .prefix.active {
+    color: #D76917;
+}
+.input-field input[type=text]:focus+label,.input-field input[type=password]:focus+label,.input-field input[type=email]:focus+label,.input-field input[type=date]:focus+label,.input-field textarea:focus+label{color:#ff7043}
+.center { display:block; margin: 0 auto; }
+.text-icon {
+    font-size: 2rem;
+    vertical-align: middle;
+    line-height: 1;
+}
+.center-btn { text-align: center }
+.modal { padding: 24px 24px 10px; width: 19%; }
+.modal p { text-align: center }
+.modal h4 { text-align: center }
+.hide { display: none }
+span i { vertical-align: middle }
+span b { vertical-align: middle; font-weight: 500; }
+input[type=number] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.row { margin-bottom: 0 }
+/* End OSTATNÍ */
+/* FIX */
+@media only screen and (max-width: 992px) {
+    ul.side-nav li {
+        display: block;
+    }
+    .modal {
+        width: 80%;
+    }
+}
+/* End FIX */
+/* Further optimization for various display*/
+@media only screen and (max-width: 25em) {
+	.webzablokovan h1 { margin-top: 5% }
+	.webzablokovan span { width: 80% }
+	.webzablokovan #nacist-znovu { margin-bottom: 10% }
+	.error404,.error403 h1 { margin-top: 5% }
+	.error404,.error403 #prejit-na-hlavni-stranku { margin-bottom: 5% }
+	#modal_odstranit_uzivatele { max-width: 80% }
+    .login h1,.reg_page h1 { margin-top: 5% }
+    .hidem { display: none }
+    .reg_form #to_register { margin-top: 1rem }
+    .g-recaptcha {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        left: 0;
+        position: relative;
+    }
+}
